@@ -1,2 +1,2 @@
 # class_two_activities
-This is my class two python programming
+This is class two of fintech programming at Columbia Engineering
