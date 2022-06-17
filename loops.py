@@ -17,10 +17,8 @@ portfolio_gain_loss_list = [
 
 sum_list = 0.00
 for portfolio_gain_loss in portfolio_gain_loss_list:
-    if portfolio_gain_loss >= 0:
-        sum_list += portfolio_gain_loss
-    else:
-        sum_list -= portfolio_gain_loss
+    sum_list += portfolio_gain_loss
+
 print(sum_list)
 
 # @TODO: Using the len() method determine the number of days in the investment period. Set that value equal to a variable called `number_of_days`.
